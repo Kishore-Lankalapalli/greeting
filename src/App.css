@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+.multilingual-greetings-heading {
+  font-family: 'Roboto';
+  font-size: 45px;
+  color: #1e293b;
+  margin-bottom: 40px;
+}
+.language-button {
+  height: 30px;
+  width: 90px;
+
+  border: 1px solid #db1c48;
+  color: #db1c48;
+  background-color: transparent;
+
+  border-radius: 14px;
+  margin-right: 40px;
+  align-self: center;
+  cursor: pointer;
+  outline: none;
+}
+
+.selected-button {
+  background-color: #db1c48;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+.languages-button-container {
+  margin-top: 30px;
+}
+.greeting-image {
+  height: 400px;
+  margin-top: 50px;
+}
